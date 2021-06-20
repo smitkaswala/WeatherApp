@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lout_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="3dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="3dp"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/lout_child"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg7"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivLocation"
+            android:layout_gravity="center"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_vector"/>
+
+        <LinearLayout
+            android:id="@+id/lout_middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvlocationName"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="Current Location"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/liteblue"/>
+
+            <TextView
+                android:id="@+id/tvarea"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_vertical"
+                android:paddingRight="25dp"
+                android:textSize="10sp"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/liteblue"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:id="@+id/lout_main">-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/lout_child"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivLocation"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="13dp"-->
+<!--            android:src="@drawable/ic_group_140" />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/lout_middle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_toLeftOf="@+id/ivDelete"-->
+<!--            android:layout_toRightOf="@+id/ivLocation"-->
+<!--            android:gravity="center">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvlocationName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:text="Current Location"-->
+<!--                android:textColor="@color/white"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvarea"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:paddingRight="25dp"-->
+<!--                android:textSize="10sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/white"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+<!--</LinearLayout>-->

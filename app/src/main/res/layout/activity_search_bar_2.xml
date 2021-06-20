@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/liteblue">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="?actionBarSize">
+
+
+                        <ImageButton
+                            android:id="@+id/bck_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:onClick="onBackPress"
+                            android:background="@color/liteblue"
+                            android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+                            android:tint="@color/white"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:text="Choose a City "
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="Choose a City "-->
+<!--                    android:fontFamily="@font/roboto"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textStyle="bold" />-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Select a City or country to see"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:hint="the weather"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginRight="15dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:background="@drawable/ic_rectangle_269">-->
+
+<!--                <AutoCompleteTextView-->
+<!--                    android:id="@+id/edit_1"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:background="@drawable/bg1"-->
+<!--                    android:drawableRight="@drawable/ic_magnifying_glass"-->
+<!--                    android:hint="Search Location"-->
+<!--                    android:paddingLeft="22dp"-->
+<!--                    android:lines="1"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingRight="15dp"-->
+<!--                    android:completionThreshold="1"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textColorHint="@color/black"-->
+<!--                    android:textSize="13sp"-->
+<!--                    android:textStyle="bold">-->
+
+<!--                </AutoCompleteTextView>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lout_child"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="13dp"-->
+<!--                    android:src="@drawable/ic_group_140" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/lout_middle"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:gravity="center">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tvlocationName"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="20dp"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:textSize="15sp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:text="Current Location"-->
+<!--                        android:textColor="@color/textcolor"/>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/text_11"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="35dp"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:paddingRight="25dp"-->
+<!--                        android:textSize="10sp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textColor="@color/textcolor"/>-->
+
+<!--                </LinearLayout>-->
+
+
+
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginRight="15dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:background="@drawable/ic_rectangle_269">-->
+
+<!--                <AutoCompleteTextView-->
+<!--                    android:id="@+id/edit_1"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:background="@drawable/bg1"-->
+<!--                    android:drawableRight="@drawable/ic_magnifying_glass"-->
+<!--                    android:hint="Search Location"-->
+<!--                    android:paddingLeft="22dp"-->
+<!--                    android:lines="1"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingRight="15dp"-->
+<!--                    android:completionThreshold="1"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textColorHint="@color/black"-->
+<!--                    android:textSize="13sp"-->
+<!--                    android:textStyle="bold">-->
+
+<!--                </AutoCompleteTextView>-->
+
+<!--            </LinearLayout>-->
+
+            <include
+                android:id="@+id/search"
+                layout="@layout/list_item_search_header"/>
+
+            <LinearLayout
+                android:id="@+id/linear6"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/bg7"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:id="@+id/iv1"
+                    android:layout_gravity="center"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_vector" />
+
+                <LinearLayout
+                    android:id="@+id/current_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:textSize="15sp"
+                        android:text="Current Location"
+                        android:paddingLeft="15dp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/liteblue"/>
+
+                    <TextView
+                        android:id="@+id/iv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingRight="25dp"
+                        android:textSize="10sp"
+                        android:paddingLeft="15dp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/liteblue"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/listLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="60dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginLeft="13dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/ic_group_140" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:orientation="vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:gravity="center">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:gravity="center_vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textSize="15sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:text="Surat"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textColor="@color/white"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="25dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:gravity="center_vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:text="Gujrat,India"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textSize="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textColor="@color/white"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                </LinearLayout>&ndash;&gt;-->
+
+            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:gravity="center"-->
+<!--                android:background="@drawable/ic_background_complete">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="300dp"-->
+<!--                    android:layout_height="300dp"-->
+<!--                    android:layout_gravity="bottom"-->
+<!--                    android:src="@drawable/ic_group_2761"/>-->
+
+
+<!--                <ImageView-->
+<!--                    android:layout_width="45dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_gravity="bottom"-->
+<!--                    android:src="@drawable/ic_plant"/>-->
+
+<!--            </LinearLayout>-->
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>
+
+</layout>

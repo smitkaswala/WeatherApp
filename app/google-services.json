@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920857012172",
+    "project_id": "nmw-dark-weather-25372",
+    "storage_bucket": "nmw-dark-weather-25372.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920857012172:android:b7b91e4f657c71e5bfdf69",
+        "android_client_info": {
+          "package_name": "com.bbot.darkweatherforecast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920857012172-1an89s3hcq88l2r4638hd27gu4d2pmd3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Jj1qitetyPKDIZi8-87qzDMzCl-qAJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920857012172-1an89s3hcq88l2r4638hd27gu4d2pmd3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

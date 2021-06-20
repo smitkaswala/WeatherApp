@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="android">#303030</color>
+    <color name="install">#07abe7</color>
+    <color name="liteblue">#0E4764</color>
+    <color name="darkwhite">#EEEEEE</color>
+    <color name="litepink">#AE5574 </color>
+    <color name="line"> #4B4444</color>
+
+    <color name="colorPrimary">#FF000000</color>
+    <color name="colorPrimaryDark">#171717</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="textcolor">#0E4764</color>
+    <color name="background">#F3F3F3</color>
+    <color name="button">#E3E4E7</color>
+    <color name="cardbackground">#F0F1F2</color>
+    <color name="feelcolor">#FFFFFF</color>
+    <color name="header_color">#FFFFFF</color>
+    <color name="main_bg">#F3F3F3</color>
+    <color name="main_home_bg">#292E4B</color>
+    <color name="box_color">#131313</color>
+    <color name="orange">#FF9652</color>
+    <color name="list_bottom">#E9EAEE</color>
+    <color name="color_hint">#BEBEBE</color>
+    <color name="gray">#666666</color>
+    <color name="backcolor">#F9F9F9</color>
+    <color name="color_1">#00CCCCCC</color>
+    <color name="color_2">#10CCCCCC</color>
+    <color name="color_3">#20CCCCCC</color>
+    <color name="color_4">#30CCCCCC</color>
+    <color name="color_5">#50CCCCCC</color>
+    <color name="card_background">#ffffff</color>
+    <color name="image_tint">#000000</color>
+    <color name="auto_comp_text">#000000</color>
+    <color name="rating_dialogue_text">#000000</color>
+    <color name="rate_us">#ffffff</color>
+    <color name="start_color">#F6646B</color>
+    <color name="middle_color">#F78C6D</color>
+    <color name="end_color">#F7B76E</color>
+    <color name="back_arrow">#000000</color>
+
+    //Native Ad Colors
+    <color name="ad_attribution_background_color">#FFA500</color>
+    <color name="ad_background_color">#FFFFF0</color>
+    <color name="ad_heading_color">#00008B</color>
+    <color name="ad_body_text_color">#696969</color>
+    <color name="ad_button_color">#6200EE</color>
+    <color name="ad_button_text_color">#ffffff</color>
+
+
+</resources>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/liteblue"
+    android:orientation="vertical"
+    tools:context=".SettingsBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <androidx.core.widget.NestedScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/bak_btn"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/liteblue"
+                        android:tint="@color/white"
+                        android:src="@drawable/ic_baseline_arrow_back_ios_new_24" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Settings"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:paddingLeft="15dp"
+                        android:text="GENERAL"
+                        android:textSize="17sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:text="Temperature unit"
+                            android:textSize="17sp"
+                            android:fontFamily="@font/roboto"
+                            android:paddingLeft="15dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+
+                        <TextView
+                            android:id="@+id/btn_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp"
+                            android:text="Celsius (°C)"
+                            android:paddingLeft="15dp"
+                            android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="match_parent"
+                            android:text="Notification"
+                            android:paddingLeft="15dp"
+                            android:textSize="17sp"
+                            android:fontFamily="@font/roboto"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/switch1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingRight="15dp" />
+
+                    </LinearLayout>
+
+
+
+                    <com.facebook.ads.NativeAdLayout
+                        android:layout_marginTop="7dp"
+                        android:id="@+id/native_ad_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="20dp"
+                        android:text="ABOUT"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/white"/>
+
+
+                    <LinearLayout
+                        android:id="@+id/feed_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:text="Feedback"
+                            android:paddingLeft="15dp"
+                            android:textStyle="bold"
+                            android:textSize="17sp"
+                            android:fontFamily="@font/roboto"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:text="bitbotdevelopres@gmail.com"
+                            android:paddingLeft="15dp"
+                            android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/shar_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="Share Application"
+                        android:paddingLeft="15dp"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/roboto"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="share app with your friends"
+                        android:paddingLeft="15dp"
+                        android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rate_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="Rate Application"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/roboto"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Give 5 star rating"
+                        android:paddingLeft="15dp"
+                        android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/about_us"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/about_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="20dp"
+                            android:textSize="17sp"
+                            android:fontFamily="@font/roboto"
+                            android:text="About us"
+                            android:paddingLeft="15dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:text="Support us and join us"
+                            android:paddingLeft="15dp"
+                            android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/pri_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="Privacy Policy"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/roboto"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Glance at privacy policy"
+                        android:paddingLeft="15dp"
+                        android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/banner_container_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/adViewGoogle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        ads:adSize="SMART_BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">-->
+<!--    </com.google.android.gms.ads.AdView>-->
+
+</LinearLayout>
